@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDebug"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.001">
+  <properties />
+  
+  
+            <testcase name="testTwoTWO" time="0.001" classname="com.jt.qa.TestTwo" />
+                <testcase name="testTwoOne" time="0.000" classname="com.jt.qa.TestTwo" />
+      
+</testsuite>

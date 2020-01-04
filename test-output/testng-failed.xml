@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="data2" value="fuhong"/>
+  <parameter name="data1" value="jiangtao"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="TestDebug(failed)">
+    <classes>
+      <class name="com.jt.qa.TestHttpClient">
+        <methods>
+          <include name="testHttpPostForm"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jt.qa.TestHttpClient -->
+    </classes>
+  </test> <!-- TestDebug(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.948 sec <<< FAILURE! - in TestSuite
+testHttpPostForm(com.jt.qa.TestHttpClient)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.jt.qa.TestHttpClient.testHttpPostForm(TestHttpClient.java:83)
+

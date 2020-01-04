@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners >
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <parameter name="data1" value="jiangtao"></parameter>
+    <parameter name="data2" value="fuhong"></parameter>
+    <test name="TestDebug">
+        <classes>
+<!--            <class name="com.jt.qa.TestOne" />-->
+<!--            <class name="com.jt.qa.TestTwo" />-->
+<!--            <class name="com.jt.qa.config" />-->
+            <class name="com.jt.qa.TestHttpClient" />
+        </classes>
+    </test> <!-- Test -->
+<!--    <test name="testDeBugTwo">-->
+<!--        <classes>-->
+<!--            <class name="com.jt.qa.TestThress" />-->
+
+<!--        </classes>-->
+<!--    </test>-->
+</suite> <!-- Suite -->

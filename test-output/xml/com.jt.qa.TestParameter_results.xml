@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestDebug"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.006">
+  <properties />
+  
+  
+            <testcase name="testPara" time="0.006" classname="com.jt.qa.TestParameter" />
+      
+</testsuite>
